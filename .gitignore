@@ -1,0 +1,40 @@
+# Executables
+bucket_sort_mpi
+topk_mpi
+
+# Objects and archives
+*.o
+*.a
+*.so
+
+# Build directory
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.build_state
+.pyre/
+
+# Results
+results/*.csv
+results/*.png
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# MPI
+core.*
